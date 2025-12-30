@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: expert
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/expert
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+jwt:
+  secret:
+    key: G5O9dNvK3pD8vB2aQ6fYxR7uS9qL4eT8H8kP2mC9dF0gB3sK
+#    6387444f690ec63da44a4ea80dd4d205f7
